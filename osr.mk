@@ -6,8 +6,5 @@ $(call inherit-product, vendor/osr/config/nfc_enhanced.mk)
 # Inherit some common slim stuff.
 $(call inherit-product, vendor/osr/config/common_full_phone.mk)
 
-# Inherit multicarrier.
-$(call inherit-product, vendor/osr/config/common_multicarrier.mk)
-
 PRODUCT_NAME := osr_jflte
 PRODUCT_DEVICE := jflte
